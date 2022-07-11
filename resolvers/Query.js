@@ -1,5 +1,7 @@
+const { coins } = require('../db');
+
 exports.Query = {
-  Coins: (parent, { skip, limit, currency }, { coins }) => {
+  Coins: (parent, { skip, limit, currency }, context) => {
     let limitcoins = coins;
     if (skip !== null) {
       limitcoins = limitcoins.filter(
@@ -18,7 +20,7 @@ exports.Query = {
     return limitcoins;
   },
 
-  Coin: (parent, { id }, { coins }) => {
+  Coin: (parent, { id }, context) => {
     return coins.find((coin) => coin.id === id);
   },
 };
