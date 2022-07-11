@@ -25,7 +25,5 @@ exports.typeDefs = gql`
 
   type Query {
     Coins(skip: Int, limit: Int, currency: String): [Coin]
-
-    Coin(id: String): Coin
   }
 `;
