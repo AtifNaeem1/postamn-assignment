@@ -2600,6 +2600,24 @@ const coins = [
   },
 ];
 
+const users = [
+  {
+    token:
+      'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IllYSWRBSzlCNEJxMU96Yk9tRjlHbCJ9.eyJpc3MiOiJodHRwczovL2Rldi14a2hlZjY3Yi51cy5hdXRoMC5jb20vIiwic3ViIjoib3RmSlo0eHFPem5telgyWnJMYkJ4S1NmMWY3aXZHeVdAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8vZ3JhcGhxbC1hcGkiLCJpYXQiOjE2NTc1MjMyMjMsImV4cCI6MTY1NzYwOTYyMywiYXpwIjoib3RmSlo0eHFPem5telgyWnJMYkJ4S1NmMWY3aXZHeVciLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.YPGmgux4Fr-ih9oN9hxvW5UW9Q49S-jMHDMkfCQLcAwzkAbFJUsTKmcCsNKXfhiLG_iU47yYkqu9UKPjtOec3u9XeC6Vcb_nnOZFNo721XUCPm5rme1ENRrjH-w49QiwGuXxS9faY7EtToosIPDV35IGu43pDyOj9_TMTA62mFQuNMdsZRX1-PNt_bJKXfzfONdvMd824mSuz-gFciEkewSqX3KmPEv6xU7yqiWXcakwoPrTWwCw-yBlAV9JKc5UdZlXEtwBp7qy7MzAwk0gZwVw60YwDr-VYAs2QDctPd0TyDBMVwhlP73ovYQ4CM42DEksUvN6HiwbdRguuu0eag',
+    name: 'jazzatif',
+    role: 'admin',
+    permissions: 'all',
+  },
+  {
+    token:
+      'xxJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IllYSWRBSzlCNEJxMU96Yk9tRjlHbCJ9.eyJpc3MiOiJodHRwczovL2Rldi14a2hlZjY3Yi51cy5hdXRoMC5jb20vIiwic3ViIjoib3RmSlo0eHFPem5telgyWnJMYkJ4S1NmMWY3aXZHeVdAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8vZ3JhcGhxbC1hcGkiLCJpYXQiOjE2NTc1MjMyMjMsImV4cCI6MTY1NzYwOTYyMywiYXpwIjoib3RmSlo0eHFPem5telgyWnJMYkJ4S1NmMWY3aXZHeVciLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.YPGmgux4Fr-ih9oN9hxvW5UW9Q49S-jMHDMkfCQLcAwzkAbFJUsTKmcCsNKXfhiLG_iU47yYkqu9UKPjtOec3u9XeC6Vcb_nnOZFNo721XUCPm5rme1ENRrjH-w49QiwGuXxS9faY7EtToosIPDV35IGu43pDyOj9_TMTA62mFQuNMdsZRX1-PNt_bJKXfzfONdvMd824mSuz-gFciEkewSqX3KmPEv6xU7yqiWXcakwoPrTWwCw-yBlAV9JKc5UdZlXEtwBp7qy7MzAwk0gZwVw60YwDr-VYAs2QDctPd0TyDBMVwhlP73ovYQ4CM42DEksUvN6HiwbdRguuu0eag',
+    name: 'anilkumar',
+    role: 'user',
+    permissions: 'read-only',
+  },
+];
+
 module.exports = {
   coins,
+  users,
 };

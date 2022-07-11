@@ -1,7 +1,7 @@
 const { ApolloServer, graphql } = require('apollo-server');
 const { typeDefs } = require('./schema');
 const { Query } = require('./resolvers/Query');
-const { users } = require('./userDb');
+const { users } = require('./db');
 
 const server = new ApolloServer({
   typeDefs,
